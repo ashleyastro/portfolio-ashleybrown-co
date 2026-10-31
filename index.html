@@ -1,95 +1,344 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ashley Brown</title>
-  <meta name="description" content="Portfolio of Ashley Brown.">
-  <link rel="canonical" href="https://ashleybrown.co/">
-  <meta property="og:title" content="Ashley Brown">
-  <meta property="og:description" content="Portfolio of Ashley Brown.">
-  <meta property="og:url" content="https://ashleybrown.co/">
-  <meta property="og:type" content="website">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23111'/><text x='50%' y='56%' font-family='Georgia,serif' font-size='16' fill='%23fff' text-anchor='middle' dominant-baseline='middle'>AB</text></svg>">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9D0B34XHW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    // Consent Mode: no ads storage; analytics stays on unless the visitor declines
+    gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted' });
+    try {
+      var saved = localStorage.getItem('ga-consent');
+      if (saved === 'granted' || saved === 'denied') gtag('consent', 'update', { analytics_storage: saved });
+    } catch (e) {}
+    gtag('js', new Date());
+
+    gtag('config', 'G-H9D0B34XHW');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashley Brown | Brand Strategy and Marketing Executive</title>
+  <meta name="description" content="Brand strategy and marketing executive. 15+ years leading narrative, creative, and content systems at Coca-Cola, Amazon, AWS, Spredfast, and Porch Group.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Merriweather:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header class="site-header">
-    <div class="wrap nav">
-      <a class="brand" href="#top">Ashley Brown</a>
-      <nav aria-label="Primary">
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <a class="brand" href="#top">Ashley Brown</a>
+    <nav aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="projects.html">Projects &amp; tools</a>
+      <a href="speaking.html">Speaking</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-social">
+      <a href="https://github.com/ashleyastro" target="_blank" rel="me noopener noreferrer" aria-label="GitHub (opens in a new tab)" title="GitHub">
+        <svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/tashleybrown/" target="_blank" rel="me noopener noreferrer" aria-label="LinkedIn (opens in a new tab)" title="LinkedIn">
+        <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
     </div>
   </header>
 
   <main id="top">
-    <section class="hero wrap">
-      <p class="eyebrow">[Your title, e.g. Designer and Developer]</p>
-      <h1>Hi, I'm Ashley.<br><span class="muted">[One line about the work you do and who you do it for.]</span></h1>
+
+    <section class="hero">
+      <p class="eyebrow">Brand strategy and marketing leadership</p>
+      <h1>I build marketing teams and the channels they own.</h1>
+      <p class="lede">15+ years building brands, narratives, and content engines across three Fortune 100 companies and two startups. Laser-focused on strategy, lighthearted on the rest.</p>
       <div class="actions">
-        <a class="btn" href="#work">View work</a>
-        <a class="btn ghost" href="#contact">Get in touch</a>
+        <a class="btn btn-primary" href="#contact">Get in touch</a>
+        <a class="btn btn-ghost" href="#work">See the work</a>
+      </div>
+      <div class="logo-row">
+        <p class="logo-row-label">Experience at</p>
+        <ul>
+          <li><picture><source srcset="images/companies/microsoft-dark.svg" media="(prefers-color-scheme: dark)"><img src="images/companies/microsoft.svg" alt="Microsoft" width="113" height="24" style="--h: 24px"></picture></li>
+          <li><img src="images/companies/cocacola.svg" alt="Coca-Cola" width="96" height="30" style="--h: 30px"></li>
+          <li><picture><source srcset="images/companies/spredfast-dark.png" media="(prefers-color-scheme: dark)"><img src="images/companies/spredfast.png" alt="Spredfast" width="109" height="26" style="--h: 26px"></picture></li>
+          <li><picture><source srcset="images/companies/amazon-dark.svg" media="(prefers-color-scheme: dark)"><img src="images/companies/amazon.svg" alt="Amazon" width="86" height="26" style="--h: 26px"></picture></li>
+          <li><picture><source srcset="images/companies/aws-dark.svg" media="(prefers-color-scheme: dark)"><img src="images/companies/aws.svg" alt="AWS" width="57" height="34" style="--h: 34px"></picture></li>
+          <li><picture><source srcset="images/companies/astro-dark.png" media="(prefers-color-scheme: dark)"><img src="images/companies/astro.png" alt="Astro Pet Health" width="30" height="30" style="--h: 30px"></picture></li>
+          <li><picture><source srcset="images/companies/porch-dark.png" media="(prefers-color-scheme: dark)"><img src="images/companies/porch.png" alt="Porch Group" width="80" height="34" style="--h: 34px"></picture></li>
+        </ul>
       </div>
     </section>
 
-    <section id="work" class="wrap section">
-      <h2>Selected work</h2>
-      <div class="grid">
-        <article class="card">
-          <div class="thumb" aria-hidden="true"></div>
-          <div class="card-body">
-            <h3>[Project one]</h3>
-            <p>[A sentence or two on the problem, your role, and the result.]</p>
-            <a class="link" href="#">View project &rarr;</a>
-          </div>
-        </article>
-        <article class="card">
-          <div class="thumb" aria-hidden="true"></div>
-          <div class="card-body">
-            <h3>[Project two]</h3>
-            <p>[A sentence or two on the problem, your role, and the result.]</p>
-            <a class="link" href="#">View project &rarr;</a>
-          </div>
-        </article>
-        <article class="card">
-          <div class="thumb" aria-hidden="true"></div>
-          <div class="card-body">
-            <h3>[Project three]</h3>
-            <p>[A sentence or two on the problem, your role, and the result.]</p>
-            <a class="link" href="#">View project &rarr;</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="about" class="wrap section about">
+    <section id="about" class="section">
       <h2>About</h2>
-      <div class="about-body">
-        <p>[A short bio: what you do, what you care about, and what you are looking for next.]</p>
-        <p>[Optional: tools, skills, clients, or past roles.]</p>
+      <div class="about-grid">
+        <p>I am a brand strategy executive with 15+ years leading narrative, creative, and content systems for technical and developer-first audiences. I built first-of-their-kind editorial platforms at Coca-Cola and Amazon that became trusted brand narrative engines, and led go-to-market for the AWS startup segment across 27 countries.</p>
+        <p>I translate complex product innovation into clear, audience-authentic storytelling, and build creative production systems that scale without sacrificing craft. I own P&amp;Ls, build multidisciplinary teams, and put the content operations and measurement in place to prove impact. Today I lead marketing for the Inspection business at Porch Group.</p>
       </div>
     </section>
 
-    <section id="contact" class="wrap section contact">
-      <h2>Contact</h2>
-      <p>The best way to reach me is by email.</p>
-      <p><a class="email" href="mailto:hello@ashleybrown.co">[hello@ashleybrown.co]</a></p>
-      <ul class="social">
-        <li><a href="#">[LinkedIn]</a></li>
-        <li><a href="#">[GitHub]</a></li>
+    <section id="work" class="section">
+      <h2>Selected work</h2>
+      <p class="section-intro">First-of-its-kind, award-winning work I&rsquo;m proud of.</p>
+      <div class="cards">
+        <article class="card">
+          <img class="card-thumb" src="images/ridealong.jpg" alt="The Ride Along podcast homepage" width="800" height="500" loading="lazy">
+          <p class="card-tag">Porch Group</p>
+          <h3>The Ride Along</h3>
+          <p>Launched and grew the largest media property and podcast in the property inspection industry, from 500 to 16,000+ subscribers in under two years.</p>
+          <a class="card-link" href="https://theridealong.show" target="_blank" rel="noopener noreferrer" aria-label="See more about The Ride Along (opens in a new tab)">See more <span aria-hidden="true">&rarr;</span></a>
+        </article>
+        <article class="card">
+          <div class="card-thumb card-thumb-text thumb-aws" aria-hidden="true">AWS Startups</div>
+          <p class="card-tag">AWS</p>
+          <h3>Startup go-to-market</h3>
+          <p>Launched three integrated campaigns across 27 countries in 11 months, generating $3M+ in qualified pipeline from a $300K media investment.</p>
+        </article>
+        <article class="card">
+          <img class="card-thumb" src="images/aboutamazon.jpg" alt="Amazon smile logo on orange" width="800" height="500" loading="lazy">
+          <p class="card-tag">Amazon</p>
+          <h3>Day One and About Amazon</h3>
+          <p>Launched the Day One blog, the About Amazon corporate site, and the Out for Delivery email program across seven markets. Day One drew 1.5M+ unique monthly visitors.</p>
+          <a class="card-link" href="https://www.aboutamazon.com" target="_blank" rel="noopener noreferrer" aria-label="See more about Day One and About Amazon (opens in a new tab)">See more <span aria-hidden="true">&rarr;</span></a>
+        </article>
+        <article class="card">
+          <div class="card-thumb card-thumb-text thumb-coke" aria-hidden="true">Coca-Cola Journey</div>
+          <p class="card-tag">Coca-Cola</p>
+          <h3>Coca-Cola Journey</h3>
+          <p>Reimagined the corporate website as an editorial platform, syndicated to 30+ international markets, that drove a $6M investment in original storytelling.</p>
+          <a class="card-link" href="https://www.nytimes.com/2012/11/12/business/media/coke-revamps-web-site-to-tell-its-story.html" target="_blank" rel="noopener noreferrer" aria-label="See more about Coca-Cola Journey (opens in a new tab)">See more <span aria-hidden="true">&rarr;</span></a>
+        </article>
+        <article class="card">
+          <img class="card-thumb" src="images/sustainability.jpg" alt="Sustainability at Amazon homepage" width="800" height="500" loading="lazy">
+          <p class="card-tag">Amazon</p>
+          <h3>Sustainability at Amazon</h3>
+          <p>Led strategy, development, and launch of the first sustainability-focused web experiences Amazon ever launched, across the US, UK, Germany, Spain, France, and Italy.</p>
+          <a class="card-link" href="https://sustainability.aboutamazon.com" target="_blank" rel="noopener noreferrer" aria-label="See more about Sustainability at Amazon (opens in a new tab)">See more <span aria-hidden="true">&rarr;</span></a>
+        </article>
+        <article class="card">
+          <img class="card-thumb" src="images/palmtech.jpg" alt="Palmtech homepage" width="800" height="500" loading="lazy">
+          <p class="card-tag">Porch Group</p>
+          <h3>Palmtech rebrand</h3>
+          <p>Led the rebrand of Palmtech, easy-to-use home inspection software that has served new and seasoned inspectors for more than 25 years.</p>
+          <a class="card-link" href="https://www.palmtech.com" target="_blank" rel="noopener noreferrer" aria-label="See more about Palmtech rebrand (opens in a new tab)">See more <span aria-hidden="true">&rarr;</span></a>
+        </article>
+        <article class="card">
+          <img class="card-thumb" src="images/hip.jpg" alt="Home Inspector Pro homepage" width="800" height="500" loading="lazy">
+          <p class="card-tag">Porch Group</p>
+          <h3>Home Inspector Pro rebrand</h3>
+          <p>Led the rebrand of Home Inspector Pro, customizable home inspection software for Windows, Mac, iOS, and Android.</p>
+          <a class="card-link" href="https://homeinspectorpro.com" target="_blank" rel="noopener noreferrer" aria-label="See more about Home Inspector Pro rebrand (opens in a new tab)">See more <span aria-hidden="true">&rarr;</span></a>
+        </article>
+        <article class="card">
+          <img class="card-thumb" src="images/isg.jpg" alt="Inspector Services Group homepage" width="800" height="500" loading="lazy">
+          <p class="card-tag">Porch Group</p>
+          <h3>Inspector Services Group rebrand</h3>
+          <p>Led the rebrand of Inspector Services Group, which helps home inspectors grow with warranty services, Recall Check, and the Summit program.</p>
+          <a class="card-link" href="https://inspectorservicesgroup.com" target="_blank" rel="noopener noreferrer" aria-label="See more about Inspector Services Group rebrand (opens in a new tab)">See more <span aria-hidden="true">&rarr;</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <p class="section-intro">15+ years across marketing and communications, rewriting the rules and working to make a difference.</p>
+      <ul class="timeline">
+        <li>
+          <div class="when">2023 – Present</div>
+          <div class="what">
+            <h3>Head of Marketing, Inspection <span>Porch Group</span></h3>
+            <p>Lead marketing and PR for a division serving 33,000+ home inspection companies, with full P&amp;L and a team of nine. Grew revenue pipeline 75% year over year on a flat $2.5M budget and led five brand overhauls in under three years.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">2021 – 2023</div>
+          <div class="what">
+            <h3>Co-founder and CEO <span>Astro Pet Health</span></h3>
+            <p>Built the brand and go-to-market for a SaaS CRM and payments platform for pet services providers, through an investment round, MVP, and strong product-market fit, before the 2022 venture downturn closed off further funding.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">2017 – 2021</div>
+          <div class="what">
+            <h3>Head of Startup Digital Marketing, AWS <span>Amazon</span></h3>
+            <p>First digital marketing leader for the AWS startup segment. Generated $3M+ in qualified pipeline at a 10:1 pipeline-to-spend ratio and managed a team of three in a highly matrixed global organization.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when"></div>
+          <div class="what">
+            <h3>Head of Owned Content Channels <span>Amazon</span></h3>
+            <p>Launched the Day One blog, About Amazon, Out for Delivery, and Sustainability at Amazon. Managed a $10M+ paid media budget, a multidisciplinary team of seven, and the first purpose-built editorial analytics.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">2014 – 2017</div>
+          <div class="what">
+            <h3>VP, Global Communications and Analyst Relations <span>Spredfast</span></h3>
+            <p>Chief spokesperson and first head of communications, leading media and analyst relations globally and all communications for the $50M Series D. Managed a team of three and an agency team of nine.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when"></div>
+          <div class="what">
+            <h3>VP, Social Strategy <span>Spredfast</span></h3>
+            <p>Built a $9M P&amp;L and a team of 59 strategists across Austin, New York, and London. Developed six new strategy products in nine months and drove 300% year-over-year revenue growth.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">2010 – 2014</div>
+          <div class="what">
+            <h3>Global Group Director, Digital Communications <span>The Coca-Cola Company</span></h3>
+            <p>Built the first social media and content marketing team at a Fortune 100 brand and launched the award-winning Coca-Cola Journey.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">Earlier</div>
+          <div class="what">
+            <h3>Consumer PR and crisis management</h3>
+            <p>Microsoft, The Corkery Group (now M Booth Health), and Porter Novelli.</p>
+          </div>
+        </li>
       </ul>
     </section>
+
+    <section id="projects" class="section">
+      <h2>Projects &amp; tools</h2>
+      <p class="section-intro">Tools I&rsquo;m building to fix the pain points I&rsquo;ve hit throughout my career.</p>
+      <article class="feature">
+        <div class="feature-body">
+          <p class="card-tag">Case study</p>
+          <h3>MediaScout: a journalist finder for SaaS PR</h3>
+          <p>Name a software category or a public executive, and MediaScout finds every reporter and blogger who has published at least five stories on it across 214 outlets in North America, the EU, and the UK, with their published contact details.</p>
+          <p>Built in Python with an MCP server, so Claude and ChatGPT can run scans right inside a chat. Designed and directed by me, built with Claude Code.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="projects.html#mediascout">Read the case study</a>
+            <a class="btn btn-ghost" href="https://github.com/ashleyastro/mediascout" target="_blank" rel="noopener noreferrer">View the code</a>
+          </div>
+        </div>
+        <a class="feature-media" href="projects.html#mediascout" tabindex="-1" aria-hidden="true">
+          <img src="images/mediascout.jpg" alt="" width="1600" height="1000" loading="lazy">
+        </a>
+      </article>
+    </section>
+
+    <section id="awards" class="section">
+      <h2>Awards and recognition</h2>
+      <p class="section-intro">Industry recognition for the work and the teams behind it.</p>
+      <ul class="honors honors-logos">
+        <li>
+          <span class="logo-chip"><img class="logo" src="images/logos/adage.svg" alt="Advertising Age" width="78" height="24" loading="lazy"></span>
+          <h3>40 Under 40</h3>
+        </li>
+        <li>
+          <span class="logo-chip"><img class="logo" src="images/logos/prweek.svg" alt="PR Week" width="116" height="24" loading="lazy"></span>
+          <h3>40 Under 40</h3>
+        </li>
+        <li>
+          <span class="logo-chip logo-chip-text">The Holmes Report</span>
+          <h3>In2 Innovator 25</h3>
+        </li>
+        <li>
+          <span class="logo-chip"><img class="logo logo-tall" src="images/logos/prdaily.svg" alt="Ragan PR Daily" width="75" height="30" loading="lazy"></span>
+          <h3>Best Website Launch</h3>
+        </li>
+        <li>
+          <span class="logo-chip"><img class="logo logo-tall" src="images/logos/prdaily.svg" alt="Ragan PR Daily" width="75" height="30" loading="lazy"></span>
+          <h3>Best Website</h3>
+        </li>
+      </ul>
+    </section>
+
+    <section id="volunteer" class="section">
+      <h2>Volunteer experience</h2>
+      <p class="section-intro">Because what we do outside of work matters too.</p>
+      <ul class="honors">
+        <li>
+          <p>The LGBTQ+ Victory Fund</p>
+          <h3>Victory Campaign Board Member and Western Caucus Chair</h3>
+        </li>
+        <li>
+          <p>Saving Great Animals Pet Rescue</p>
+          <h3>Board Member</h3>
+        </li>
+      </ul>
+    </section>
+
+    <section id="facts" class="section">
+      <h2>Good to know</h2>
+      <p class="section-intro">A little bit more about me.</p>
+      <ul class="honors">
+        <li>
+          <p>Languages</p>
+          <p class="fact">French (intermediate), German (conversational), and Italian (beginner).</p>
+        </li>
+        <li>
+          <p>Work authorization</p>
+          <p class="fact">EU work authorization, no sponsorship required.</p>
+        </li>
+        <li>
+          <p>Lived abroad</p>
+          <p class="fact">France and South Africa.</p>
+        </li>
+        <li>
+          <p>Travel</p>
+          <p class="fact">Every inhabited continent, all 50 states, plus Washington, D.C., and Puerto Rico.</p>
+        </li>
+        <li>
+          <p>Off the clock</p>
+          <p class="fact">I build model ships and planes. Patience, it turns out, is a transferable skill.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Let's talk</h2>
+      <p>If you are building a marketing function, or rebuilding one, I would like to hear about it.</p>
+      <a class="btn btn-primary" href="mailto:ashley@gusandbrown.com">ashley@gusandbrown.com</a>
+      <ul class="links">
+        <li><a href="https://github.com/ashleyastro" target="_blank" rel="me noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/tashleybrown/" target="_blank" rel="me noopener noreferrer">LinkedIn</a></li>
+        <li><a href="Ashley_Brown_Resume.pdf" download>Download resume (PDF)</a></li>
+      </ul>
+    </section>
+
   </main>
 
-  <footer class="wrap site-footer">
-    <p>&copy; <span id="year">2026</span> Ashley Brown</p>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-id">
+        <a class="brand" href="#top">Ashley Brown</a>
+        <p>Brand strategy and marketing leadership.</p>
+        <p>&copy; <span id="year">2026</span> Ashley Brown. Built by hand with HTML and CSS.</p>
+        <p><button type="button" class="link-button" id="consent-settings">Cookie settings</button></p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#about">About</a>
+        <a href="#work">Selected work</a>
+        <a href="#experience">Experience</a>
+        <a href="#awards">Awards</a>
+        <a href="#volunteer">Volunteer</a>
+        <a href="#facts">Good to know</a>
+        <a href="projects.html">Projects &amp; tools</a>
+        <a href="speaking.html">Speaking</a>
+        <a href="#contact">Contact</a>
+        <a href="Ashley_Brown_Resume.pdf" download>Resume (PDF)</a>
+        <a href="https://github.com/ashleyastro" target="_blank" rel="me noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/tashleybrown/" target="_blank" rel="me noopener noreferrer">LinkedIn</a>
+      </nav>
+    </div>
   </footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+  <div class="consent" id="consent" role="region" aria-label="Cookie consent" hidden>
+    <p>This site uses Google Analytics cookies to understand how visitors use it. No ads, and your data is never sold.</p>
+    <div class="consent-actions">
+      <button type="button" class="btn btn-primary" id="consent-accept">Accept</button>
+      <button type="button" class="btn btn-ghost" id="consent-decline">Decline</button>
+    </div>
+  </div>
+
+  <script src="site.js"></script>
 </body>
 </html>

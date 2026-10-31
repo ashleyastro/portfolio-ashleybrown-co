@@ -4,7 +4,4 @@ Source for my portfolio site, [ashleybrown.co](https://ashleybrown.co).
 
 Plain HTML and CSS served by GitHub Pages from the `main` branch. No build step.
 
-- `index.html`: the home page
-- `assets/styles.css`: styles (light and dark mode)
-- `404.html`: not-found page
-- `CNAME`: custom domain for GitHub Pages
+This site is a copy of the [gusandbrown.com](https://gusandbrown.com) site (repo `ashleyastro/ashleyastro.github.io`). The two are maintained separately.
