@@ -8,7 +8,8 @@ Static portfolio site (plain HTML and CSS, no build step) hosted on GitHub Pages
 - Live URLs: https://ashleybrown.co (primary). https://www.ashleybrown.co redirects to it.
 - Origin: duplicated in Oct 2026 from the gusandbrown.com site (repo https://github.com/ashleyastro/ashleyastro.github.io), which stays live and is maintained separately. Changes here do not carry over to that site, and vice versa.
 - LinkedIn: https://www.linkedin.com/in/tashleybrown/ (no query string)
-- Domain registrar: Namecheap (both ashleybrown.co and gusandbrown.com). gusandbrown.com handles email, so the site's mailto links still use ashley@gusandbrown.com.
+- Domain registrar: Namecheap (both ashleybrown.co and gusandbrown.com).
+- Email on the site: ashley@ashleybrown.co (switched from ashley@gusandbrown.com in Nov 2026) for the Let's talk button and both Speaking page booking buttons. Use it for any new email link. The resume PDF still lists ashley@gusandbrown.com until a new PDF is supplied.
 
 ## Files
 - `index.html`: home page with hero, About, Selected work (cards), Experience (timeline), Projects & tools (`#projects`: one-line intro "Tools I'm building to fix the pain points I've hit throughout my career.", then a `.feature` card for MediaScout with a small 320px screenshot beside the text and compact buttons, linking to `projects.html#mediascout` and the GitHub repo; add a card here for each new project), Awards and recognition, Volunteer experience, Good to know, Contact
