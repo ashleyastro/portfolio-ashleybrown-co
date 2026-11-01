@@ -271,7 +271,7 @@ main { padding: 0 24px; }
 
 .thumb-coke { background: #E61D2B; }
 .thumb-aws { background: #232F3E; }
-.thumb-astro { background: #3B6326; }
+.thumb-astro { background: #ffffff; color: #3B6326; }
 .thumb-amazon { background: #ffffff; color: #232F3E; }
 
 /* Logo tiles: logo stacked above the label */
