@@ -274,7 +274,7 @@ main { padding: 0 24px; }
 .thumb-astro { background: #ffffff; color: #3B6326; }
 .thumb-fuel { background: #ffffff; }
 .thumb-spredfast { background: #ffffff; }
-.thumb-spredfast img { width: 60%; max-width: 200px; height: auto; }
+.thumb-spredfast img { width: 80%; max-width: 326px; height: auto; }
 .thumb-fuel img { width: 75%; max-width: 246px; height: auto; }
 .thumb-amazon { background: #ffffff; color: #232F3E; }
 
