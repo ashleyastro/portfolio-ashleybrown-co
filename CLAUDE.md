@@ -57,6 +57,7 @@ Site copy is aligned with the resumes (Oct 2026). The "Brand Strategy" resume is
 
 ## Working preferences
 - Commit as the owner so work counts on their GitHub profile: run `git config user.name "Ashley Brown"` and `git config user.email "87669769+ashleyastro@users.noreply.github.com"` in the repo before committing (a fresh clone does not keep this). Keep the Co-Authored-By: Claude line in commit messages.
+- Commit in Pacific time so commits land on the owner's local date in the GitHub contribution graph (cloud machines run on UTC, which pushed evening commits to the next day): prefix every `git commit` with `TZ=America/Los_Angeles`, for example `TZ=America/Los_Angeles git commit -m "..."`. Check with `git log -1 --format=%ad --date=iso` that the offset is -0800 or -0700, not +0000.
 - Never use em dashes in code comments, copy, or messages
 - Concise, confident, professional tone
 - Double check work for errors before presenting it
