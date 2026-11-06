@@ -156,6 +156,13 @@ main { padding: 0 24px; }
 /* Full-color logos; dark mode swaps in white-text versions via <picture> */
 .logo-row picture { display: block; }
 
+/* Linked logos: company sites in the Experience row, organization sites in Volunteer */
+.logo-link { display: block; border-radius: 4px; transition: opacity 0.15s ease; }
+.logo-link:hover { opacity: 0.7; }
+a.logo-chip { transition: border-color 0.15s ease; }
+a.logo-chip:hover { border-color: var(--accent); }
+.logo-link:focus-visible, a.logo-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
 .logo-row img {
   display: block;
   width: auto;
