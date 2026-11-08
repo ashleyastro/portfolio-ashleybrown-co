@@ -44,7 +44,7 @@ Site copy is aligned with the resumes (Oct 2026). The "Brand Strategy" resume is
 
 ## About the owner (for copy decisions)
 - Senior marketing and content leader, 15 years of people leadership
-- Head of Marketing, Inspection at Porch Group (2023 to present), team of nine, full marketing P&L, flat $3.5M marketing budget (owner confirmed Nov 2026; $2.5M was wrong)
+- Head of Marketing, Inspection at Porch Group (2023 to present), team of nine, full marketing P&L, flat $3.5M marketing budget (owner confirmed Nov 2026; $2.5M was wrong), four brand overhauls in under three years (owner confirmed Nov 2026; five was wrong)
 - Co-founder and CEO, Astro Pet Health (2021 to 2023)
 - Amazon and AWS (2017 to 2021): Head of Startup Digital Marketing at AWS; Head of Owned Content Channels at Amazon (Day One, About Amazon, Out for Delivery, Sustainability at Amazon)
 - Spredfast (2014 to 2017): VP Global Communications and Analyst Relations; earlier VP Social Strategy (team of 59, $9M P&L)
